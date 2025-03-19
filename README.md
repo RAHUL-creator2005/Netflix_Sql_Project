@@ -75,7 +75,7 @@ FROM netflix
 WHERE release_year = 2020;
 Objective: Retrieve all movies released in a specific year.
 ```
-##4. Find the Top 5 Countries with the Most Content on Netflix
+## 4. Find the Top 5 Countries with the Most Content on Netflix
 ``` sql
 SELECT * 
 FROM
@@ -91,7 +91,7 @@ ORDER BY total_content DESC
 LIMIT 5;
 Objective: Identify the top 5 countries with the highest number of content items.
 ```
-##5. Identify the Longest Movie
+## 5. Identify the Longest Movie
 ``` sql
 SELECT 
     *
@@ -119,7 +119,7 @@ FROM (
 WHERE director_name = 'Rajiv Chilaka';
 Objective: List all content directed by 'Rajiv Chilaka'.
 ```
-##8. List All TV Shows with More Than 5 Seasons
+## 8. List All TV Shows with More Than 5 Seasons
 ``` sql
 SELECT *
 FROM netflix
